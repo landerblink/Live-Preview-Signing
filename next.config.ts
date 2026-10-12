@@ -12,6 +12,8 @@ const nextConfig: NextConfig = {
       },
     },
   },
+
+  allowedDevOrigins: ["192.168.1.202"], // your PC's LAN IP
 };
 
 export default nextConfig;
